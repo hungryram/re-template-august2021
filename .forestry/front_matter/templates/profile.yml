@@ -70,7 +70,7 @@ fields:
     type: text
     config:
       required: false
-    label: Office
+    label: Office Number
   - name: cell
     type: text
     config:
@@ -101,6 +101,12 @@ fields:
     config:
       required: false
     label: Zip Code
+  - name: google_page_link
+    type: text
+    config:
+      required: false
+    label: Google Page Link
+    description: "<em>Link to Google Maps or Google Business Page</em>"
   label: Contact Information
 - name: search_engine_optimization
   type: field_group
